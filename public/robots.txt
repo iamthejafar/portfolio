@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap (update to full URL if you host on a custom domain)
+Sitemap: /sitemap.xml
