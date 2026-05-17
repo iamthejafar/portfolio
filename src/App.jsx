@@ -744,7 +744,7 @@ function Portrait() {
           <div className="portrait-initials">JJ</div>
         </div>
       ) : (
-        <img className="portrait-img" src="/profile.jpg" alt="Jafar Jalali" onError={() => setErr(true)} />
+        <img className="portrait-img" src="/public/profile.png" alt="Jafar Jalali" onError={() => setErr(true)} />
       )}
       <div className="portrait-badge">
         <span className="portrait-badge-label">Based in</span>
@@ -1024,7 +1024,6 @@ export default function App() {
               { label: "Email",    val: "jafarjalali128@gmail.com",  href: "mailto:jafarjalali128@gmail.com" },
               { label: "LinkedIn", val: "jafarjalali128",            href: "https://linkedin.com/in/jafarjalali128/" },
               { label: "GitHub",   val: "iamthejafar",              href: "https://github.com/iamthejafar" },
-              { label: "Phone",    val: "+49 176 3680 0276",        href: "tel:+4917636800276" },
             ].map(({ label, val, href }) => (
               <a key={label} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" className="c-link">
                 <div className="c-link-left">
