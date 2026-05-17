@@ -744,7 +744,7 @@ function Portrait() {
           <div className="portrait-initials">JJ</div>
         </div>
       ) : (
-        <img className="portrait-img" src="/public/profile.png" alt="Jafar Jalali" onError={() => setErr(true)} />
+        <img className="portrait-img" src="/profile.png" alt="Jafar Jalali" onError={() => setErr(true)} />
       )}
       <div className="portrait-badge">
         <span className="portrait-badge-label">Based in</span>
@@ -1041,7 +1041,7 @@ export default function App() {
       <footer className="footer">
         <div className="footer-inner">
           <span className="footer-mono">© 2026 Jafar Jalali</span>
-          <a href="/public/cv.pdf" download="Jafar_Jalali_CV.pdf" className="footer-mono"><DownIcon /> Download CV</a>
+          <a href="/cv.pdf" download="Jafar_Jalali_CV.pdf" className="footer-mono"><DownIcon /> Download CV</a>
         </div>
       </footer>
     </div>
