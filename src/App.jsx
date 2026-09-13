@@ -744,7 +744,7 @@ function Portrait() {
           <div className="portrait-initials">JJ</div>
         </div>
       ) : (
-        <img className="portrait-img" src="/profile.png" alt="Jafar Jalali" onError={() => setErr(true)} />
+        <img className="portrait-img" src="./profile.png" alt="Jafar Jalali" onError={() => setErr(true)} />
       )}
       <div className="portrait-badge">
         <span className="portrait-badge-label">Based in</span>
