@@ -675,9 +675,9 @@ document.head.appendChild(style)
 
 /* ── Icons ── */
 const SocialIcon = ({ src, alt }) => <img src={src} alt={alt} aria-hidden="true" />
-const GhIcon = () => <SocialIcon src="/github.png" alt="GitHub" />
-const LiIcon = () => <SocialIcon src="/linkedin.png" alt="LinkedIn" />
-const LeetCodeIcon = () => <SocialIcon src="/leetcode.png" alt="LeetCode" />
+const GhIcon = () => <SocialIcon src="./github.png" alt="GitHub" />
+const LiIcon = () => <SocialIcon src="./linkedin.png" alt="LinkedIn" />
+const LeetCodeIcon = () => <SocialIcon src="./leetcode.png" alt="LeetCode" />
 const DownIcon = () => (
   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
     <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
@@ -844,7 +844,7 @@ export default function App() {
             </li>
           ))}
         </ul>
-        <a href="/cv.pdf" download="Jafar_Jalali_CV.pdf" className="btn-primary" style={{ fontSize: "0.65rem", padding: "0.6rem 1.2rem" }}>
+        <a href="./cv.pdf" download="Jafar_Jalali_CV.pdf" className="btn-primary" style={{ fontSize: "0.65rem", padding: "0.6rem 1.2rem" }}>
           <DownIcon /> CV
         </a>
       </nav>
@@ -865,7 +865,7 @@ export default function App() {
             </p>
             <div className="hero-actions">
               <a href="mailto:jafarjalali128@gmail.com" className="btn-primary">✉ Email Me</a>
-              <a href="/cv.pdf" download="Jafar_Jalali_CV.pdf" className="btn-outline"><DownIcon /> Download CV</a>
+              <a href="./cv.pdf" download="Jafar_Jalali_CV.pdf" className="btn-outline"><DownIcon /> Download CV</a>
             </div>
             <div className="hero-social">
               <a href="https://github.com/iamthejafar" target="_blank" rel="noopener noreferrer" className="hero-social-link">
@@ -1041,7 +1041,7 @@ export default function App() {
       <footer className="footer">
         <div className="footer-inner">
           <span className="footer-mono">© 2026 Jafar Jalali</span>
-          <a href="/cv.pdf" download="Jafar_Jalali_CV.pdf" className="footer-mono"><DownIcon /> Download CV</a>
+          <a href="./cv.pdf" download="Jafar_Jalali_CV.pdf" className="footer-mono"><DownIcon /> Download CV</a>
         </div>
       </footer>
     </div>
